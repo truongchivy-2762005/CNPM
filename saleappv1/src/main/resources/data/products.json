@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Sofa Văng Nỉ Băng Dài Scandinavian",
+    "description": "Chất liệu nỉ nhung cao cấp chống bám bẩn, đệm mút D40 đàn hồi êm ái kết hợp khung chân gỗ sồi tự nhiên chắc chắn.",
+    "price": 12890000.0,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 1
+  },
+  {
+    "id": 2,
+    "name": "Bàn Trà Đôi Mặt Đá Marble Nordic",
+    "description": "Mặt đá cẩm thạch vân mây tự nhiên chịu nhiệt chống xước, khung kim loại sơn tĩnh điện mạ vàng sang trọng và tinh tế.",
+    "price": 4650000.0,
+    "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986b88?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 1
+  },
+  {
+    "id": 3,
+    "name": "Kệ Tivi Gỗ Óc Chó Walnut Elegance",
+    "description": "Gỗ óc chó nhập khẩu Bắc Mỹ tuyển chọn vân sóng độc bản, thiết kế cửa lùa thông minh tối ưu không gian chứa đồ phòng khách.",
+    "price": 9800000.0,
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 1
+  },
+  {
+    "id": 4,
+    "name": "Ghế Thư Giãn Lounge Bọc Da Bò Ý",
+    "description": "Lớp đệm lông vũ ôm sát cơ thể, lớp da thuộc thảo mộc tự nhiên nhập khẩu từ Ý mang đến cảm giác thư thái tối đa khi đọc sách.",
+    "price": 8900000.0,
+    "image": "https://images.unsplash.com/photo-1580481077111-5743a13919e1?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 1
+  },
+  {
+    "id": 5,
+    "name": "Đèn Cây Đứng Phòng Khách Minimalist",
+    "description": "Thân đèn hợp kim uốn cong nghệ thuật, chao đèn vải lanh khuếch tán ánh sáng vàng ấm chống mỏi mắt cho không gian ấm cúng.",
+    "price": 1950000.0,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 1
+  },
+  {
+    "id": 6,
+    "name": "Giường Ngủ Bọc Đệm Minimalist King Size",
+    "description": "Thiết kế gầm thấp phong cách Nhật Bản đương đại, đầu giường bọc da microfiber êm mềm tạo điểm nhấn thư giãn cho phòng ngủ.",
+    "price": 16500000.0,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 2
+  },
+  {
+    "id": 7,
+    "name": "Tủ Quần Áo Cánh Kính Cường Lực Khói",
+    "description": "Khung nhôm mạ anode màu than chì, kính cường lực màu trà sang trọng tích hợp hệ thống dải đèn LED cảm ứng chuyển động.",
+    "price": 22400000.0,
+    "image": "https://images.unsplash.com/photo-1558997519-83ea9252def8?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 2
+  },
+  {
+    "id": 8,
+    "name": "Bàn Ăn Mặt Gỗ Tự Nhiên Kèm 6 Ghế",
+    "description": "Mặt bàn gỗ sồi dày nguyên tấm bo cong góc an toàn cho trẻ nhỏ, đi kèm bộ 6 ghế bọc vải dệt thô cao cấp phong cách ấm cúng.",
+    "price": 18200000.0,
+    "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 2
+  },
+  {
+    "id": 9,
+    "name": "Tủ Bếp Rượu Đa Năng Gỗ Tần Bì",
+    "description": "Khay treo ly rượu vang úp ngược, ngăn phân vùng đựng chai rượu tiêu chuẩn kết hợp tủ lưu trữ đồ gia dụng tiện nghi cho gian bếp.",
+    "price": 7900000.0,
+    "image": "https://images.unsplash.com/photo-1595515106969-1ce29566ff1c?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 2
+  },
+  {
+    "id": 10,
+    "name": "Gương Toàn Thân Viền Uốn Lượn Gỗ Sồi",
+    "description": "Kính tráng bạc 5 lớp chống ẩm mốc cho hình ảnh sâu trung thực không méo mó, khung gỗ sồi điêu khắc uốn lượn nghệ thuật.",
+    "price": 2750000.0,
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 2
+  },
+  {
+    "id": 11,
+    "name": "Bàn Làm Việc Gỗ Thông Cao Cấp Standing Desk",
+    "description": "Bàn đứng điều chỉnh chiều cao bằng motor điện từ 70–120cm, mặt gỗ thông dày 25mm xử lý chống cong vênh, kết nối điều khiển qua app điện thoại.",
+    "price": 11500000.0,
+    "image": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 3
+  },
+  {
+    "id": 12,
+    "name": "Ghế Công Thái Học Ergonomic Pro X",
+    "description": "Tựa đầu điều chỉnh 4D, tựa lưng lưới thoát khí linh hoạt theo cử động cơ thể, đệm ngồi bọc foam memory chịu nhiệt giảm áp lực hông.",
+    "price": 6800000.0,
+    "image": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 3
+  },
+  {
+    "id": 13,
+    "name": "Kệ Sách Tường Modular 5 Tầng",
+    "description": "Hệ kệ tường modul lắp ghép linh hoạt, gỗ MDF phủ melamine chống ẩm chống trầy, tải trọng 30kg/tầng phù hợp lưu trữ sách và vật dụng văn phòng.",
+    "price": 3200000.0,
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 3
+  },
+  {
+    "id": 14,
+    "name": "Đèn Bàn Làm Việc LED Cảm Ứng Chống Mỏi Mắt",
+    "description": "Công nghệ ánh sáng tự nhiên CRI95+ không nhấp nháy, điều chỉnh 5 màu sắc 10 cấp độ sáng qua cảm ứng, cổng sạc USB-C tích hợp thân đèn.",
+    "price": 890000.0,
+    "image": "https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 3
+  },
+  {
+    "id": 15,
+    "name": "Tủ Hồ Sơ Gỗ Walnut 3 Ngăn Kéo",
+    "description": "3 ngăn kéo bi âm êm ái chịu tải 15kg mỗi ngăn, khóa chống trộm nhập code điện tử, mặt gỗ óc chó tự nhiên vân sóng sang trọng.",
+    "price": 4200000.0,
+    "image": "https://images.unsplash.com/photo-1551298370-9d3d53740c72?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 3
+  },
+  {
+    "id": 16,
+    "name": "Bộ Bàn Ghế Sân Vườn Nhôm Đúc Chống Gỉ",
+    "description": "Hợp kim nhôm đúc A356 chống ăn mòn bởi mưa nắng UV, đệm ghế mút hút ẩm ngoài trời chống mốc, dễ tháo lắp rửa vệ sinh.",
+    "price": 8500000.0,
+    "image": "https://images.unsplash.com/photo-1600210492493-0946911123ea?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 4
+  },
+  {
+    "id": 17,
+    "name": "Chậu Cây Composite Bộ 5 Kích Thước",
+    "description": "Chậu composite nhẹ hơn đất nung 60%, kháng UV không phai màu qua 10 năm, thiết kế lỗ thoát nước đôi ngăn ngừa úng rễ cây.",
+    "price": 1250000.0,
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 4
+  },
+  {
+    "id": 18,
+    "name": "Đèn Lồng Treo Ngoài Trời Năng Lượng Mặt Trời",
+    "description": "Tự sạc ban ngày, tự sáng khi tối qua cảm biến quang điện, pin Lithium 2000mAh sáng liên tục 8 giờ, khung thép sơn tĩnh điện không rỉ.",
+    "price": 680000.0,
+    "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 4
+  },
+  {
+    "id": 19,
+    "name": "Xích Đu Đan Thừng Boho Treo Trần",
+    "description": "Khung thép chịu lực 120kg mạ sơn chống gỉ, dây thừng bện tay từ sợi cotton tự nhiên không tẩy trắng bền đẹp theo năm tháng.",
+    "price": 1890000.0,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 4
+  },
+  {
+    "id": 20,
+    "name": "Tranh Sơn Dầu Trừu Tượng Canvas Thủ Công",
+    "description": "Tranh vẽ tay 100% bởi họa sĩ nội thất chuyên nghiệp, sơn dầu Winsor & Newton không ố vàng sau 50 năm, khung gỗ thông căng canvas chuẩn museum.",
+    "price": 3600000.0,
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&auto=format&fit=crop&q=80",
+    "categoryId": 4
+  }
+]

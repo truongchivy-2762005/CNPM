@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NordicHome - Tinh Hoa Nội Thất Gia Dụng</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <a th:href="@{/}" class="logo">
+                🌿 <span>NORDIC</span>HOME
+            </a>
+            <ul class="nav-links">
+                <li><a th:href="@{/}" class="active">Trang chủ</a></li>
+                <li><a th:href="@{/products}">Toàn bộ bộ sưu tập</a></li>
+                <li><a th:href="@{/products(categoryId=1)}">Phòng Khách</a></li>
+                <li><a th:href="@{/products(categoryId=2)}">Phòng Ngủ &amp; Bếp</a></li>
+                <li><a th:href="@{/products(categoryId=3)}">Phòng Làm Việc</a></li>
+                <li><a th:href="@{/products(categoryId=4)}">Sân Vườn &amp; Trang Trí</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>KHÔNG GIAN SỐNG AN YÊN & HIỆN ĐẠI</h1>
+            <p>Tuyển tập các mẫu thiết kế nội thất phong cách Bắc Âu tinh tế trong từng đường nét và chất liệu gỗ sồi tự nhiên.</p>
+            <a th:href="@{/products}" class="btn-primary">Khám phá bộ sưu tập ngay →</a>
+        </div>
+    </section>
+
+    <!-- Main Container -->
+    <main class="container">
+        <h2 class="section-title">Không Gian Trải Nghiệm</h2>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem;">
+            <!-- Category 1 Card: Tone Cam Ấm Hổ Phách -->
+            <div class="product-card cat-card-1" style="padding: 2.5rem; text-align: center;">
+                <div class="cat-badge-icon" style="background-color: #ffedd5;">🛋️</div>
+                <h3 style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.8rem; color: #9a3412;">Nội Thất Phòng Khách</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.6;">
+                    Sofa văng bọc nỉ êm ái, bàn trà mặt đá cẩm thạch tự nhiên và kệ tivi gỗ óc chó cao cấp tạo nên diện mạo đẳng cấp.
+                </p>
+                <a th:href="@{/products(categoryId=1)}" class="btn-detail btn-card-orange">Xem nội thất phòng khách →</a>
+            </div>
+
+            <!-- Category 2 Card: Tone Xanh Ngọc Quý Phái -->
+            <div class="product-card cat-card-2" style="padding: 2.5rem; text-align: center;">
+                <div class="cat-badge-icon" style="background-color: #d1fae5;">🛏️</div>
+                <h3 style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.8rem; color: #065f46;">Nội Thất Phòng Ngủ &amp; Bếp</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.6;">
+                    Giường ngủ tối giản chuẩn mực, tủ áo cánh kính sang trọng và bộ bàn ăn gỗ sồi ấm cúng cho bữa cơm gia đình trọn vẹn.
+                </p>
+                <a th:href="@{/products(categoryId=2)}" class="btn-detail btn-card-green">Xem phòng ngủ &amp; bếp →</a>
+            </div>
+
+            <!-- Category 3 Card: Tone Tím Lavender Phòng Làm Việc -->
+            <div class="product-card" style="padding: 2.5rem; text-align: center; background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); border: 1.5px solid #c4b5fd;">
+                <div class="cat-badge-icon" style="background-color: #ede9fe;">💼</div>
+                <h3 style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.8rem; color: #5b21b6;">Nội Thất Phòng Làm Việc</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.6;">
+                    Bàn làm việc điều chỉnh chiều cao, ghế công thái học ergonomic và kệ sách thông minh cho không gian làm việc hiệu quả.
+                </p>
+                <a th:href="@{/products(categoryId=3)}" class="btn-detail" style="background: linear-gradient(135deg, #7c3aed, #5b21b6); color: white;">Xem phòng làm việc →</a>
+            </div>
+
+            <!-- Category 4 Card: Tone Xanh Lá Sân Vườn -->
+            <div class="product-card" style="padding: 2.5rem; text-align: center; background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); border: 1.5px solid #86efac;">
+                <div class="cat-badge-icon" style="background-color: #dcfce7;">🌿</div>
+                <h3 style="font-size: 1.5rem; font-weight: 900; margin-bottom: 0.8rem; color: #14532d;">Sân Vườn &amp; Trang Trí</h3>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 2rem; line-height: 1.6;">
+                    Bộ bàn ghế sân vườn chống gỉ, đèn năng lượng mặt trời và tranh nghệ thuật tạo điểm nhấn cho không gian ngoại thất.
+                </p>
+                <a th:href="@{/products(categoryId=4)}" class="btn-detail" style="background: linear-gradient(135deg, #16a34a, #14532d); color: white;">Xem sân vườn &amp; trang trí →</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 NordicHome Living - Bài Thực Hành Phát Triển Web Spring Boot.</p>
+    </footer>
+</body>
+</html>
