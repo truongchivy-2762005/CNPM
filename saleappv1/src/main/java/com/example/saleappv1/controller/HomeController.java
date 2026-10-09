@@ -1,19 +1,20 @@
 package com.example.saleappv1.controller;
 
-import com.example.saleappv1.service.ProductService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.example.saleappv1.service.CategoryService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
+@RequiredArgsConstructor
 public class HomeController {
-    @Autowired
-    private ProductService productService;
+
+    private final CategoryService categoryService;
 
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("categories", productService.getAllCategories());
+        model.addAttribute("categories", categoryService.getAllCategories());
         return "index";
     }
 }
